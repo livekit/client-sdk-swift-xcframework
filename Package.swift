@@ -18,13 +18,13 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "LiveKit",
-            url: "https://github.com/livekit/client-sdk-swift-xcframework/releases/download/2.15.0/LiveKit.xcframework.zip",
-            checksum: "68415da66d35be934f5c12d4aefa8036dc1d20bab83000253b6b6835dbd6bca9"
+            url: "https://github.com/livekit/client-sdk-swift-xcframework/releases/download/2.15.1/LiveKit.xcframework.zip",
+            checksum: "bb4303255ccd23db5ac5be448006a35d4aa27dca6517d485da2ef52a45aa4e86"
         ),
         .binaryTarget(
             name: "LiveKitWebRTC",
-            url: "https://github.com/livekit/webrtc-xcframework/releases/download/144.7559.08/LiveKitWebRTC.xcframework.zip",
-            checksum: "aaffd15670e71d735b1d1ff9454459cc25416f10a157b5c0f49932a18198fa33"
+            url: "https://github.com/livekit/webrtc-xcframework/releases/download/144.7559.10/LiveKitWebRTC.xcframework.zip",
+            checksum: "a0f0d5e80b2a25fa6d9e8d235b90e426ec44ca872e3331c6c3d03d2fccc8a2e6"
         ),
         .binaryTarget(
             name: "RustLiveKitUniFFI",
